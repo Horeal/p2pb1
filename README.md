@@ -1,2 +1,2 @@
-# p2pb1
-p2p new
+#P2P Blochen Network System
+Coder By Horeal(Gökdeniz G.)
