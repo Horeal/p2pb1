@@ -6,7 +6,7 @@ update & upgrade
     sudo apt-get update -y & sudo apt-get full-upgrade -y
 eroor code (Command 'sudo' not found, but can be installed with)
 
-    open root accounts
+    login to your root account
     apt-get install sudo
 
 linuxOS open port
