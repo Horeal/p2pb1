@@ -25,13 +25,15 @@ ubuntu , debian and kali linux allow port
 
     sudo ufw allow 8080
 run code client:
+
 linux
 
     gcc client.c -o client -lnsl -lm
 windows
 
     gcc client.c -o client -lws2_32 -lm
-run code server
+run code server:
+
 linux
 
     gcc server.c -o server -lnsl -lm
