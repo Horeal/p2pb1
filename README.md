@@ -24,11 +24,19 @@ For Other Linux Distributions
 ubuntu , debian and kali linux allow port
 
     sudo ufw allow 8080
-run code client
+run code client:
+linux
 
-    gcc client.c
+    gcc client.c -o client -lnsl -lm
+windows
+
+    gcc client.c -o client -lws2_32 -lm
 run code server
+linux
 
-    gcc server.c
+    gcc server.c -o server -lnsl -lm
+windows
+
+    gcc server.c -o server -lws2_32 -lm
 
 Coder By Horeal(Gökdeniz G.)
