@@ -4,6 +4,11 @@ Hello, this system provides a more secure communication by encrypting data over 
 update & upgrade
 
     sudo apt-get update -y & sudo apt-get full-upgrade -y
+
+build
+
+    sudo apt-get install build-essential
+
 eroor code (Command 'sudo' not found, but can be installed with)
 
     login to your root account
