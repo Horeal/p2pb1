@@ -41,9 +41,9 @@ run code server:
 
 linux
 
-    gcc server.c -o server -lnsl -lm
+    gcc server.c -o server -lnsl -lm -lcrypto
 windows
 
-    gcc server.c -o server -lws2_32 -lm
+    gcc server.c -o server -lws2_32 -lm -lcrypto
 
 Coder By Horeal(Gökdeniz G.)
