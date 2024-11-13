@@ -33,10 +33,10 @@ run code client:
 
 linux
 
-    gcc client.c -o client -lnsl -lm
+    gcc client.c -o client -lnsl -lm -lcrypto
 windows
 
-    gcc client.c -o client -lws2_32 -lm
+    gcc client.c -o client -lws2_32 -lm -lcrypto
 run code server:
 
 linux
